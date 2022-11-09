@@ -19,9 +19,9 @@ if(args.dice) {
 
 var rolls = 1;
 if(args.rolls){
-    dice = args.rolls
+    rolls = args.rolls
 }
 
-console.log(JSON.stringify(roll(sides, dice, rolls)));
+console.log(roll(sides, dice, rolls));
 
 exit(0);
