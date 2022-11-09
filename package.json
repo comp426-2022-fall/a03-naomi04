@@ -1,0 +1,23 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "a cli dice game",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-naomi04.git"
+  },
+  "author": "naomi04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-naomi04/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-naomi04#readme",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "type": "module"
+}
