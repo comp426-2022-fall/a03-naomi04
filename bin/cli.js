@@ -22,6 +22,6 @@ if(args.rolls){
     rolls = args.rolls
 }
 
-console.log(roll(sides, dice, rolls));
+roll(sides, dice, rolls);
 
 exit(0);
