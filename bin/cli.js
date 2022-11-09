@@ -5,7 +5,7 @@ import minimist from "minimist";
 import { exit } from "process";
 //getting args & passing to roll function
 const args = minimist(process.argv.slice(2));
-console.log(args);
+//console.log(args);
 
 var sides = 6;
 if(args.sides) {
@@ -22,6 +22,6 @@ if(args.rolls){
     rolls = args.rolls
 }
 
-roll(sides, dice, rolls);
+console.log(roll(sides, dice, rolls));
 
 exit(0);
