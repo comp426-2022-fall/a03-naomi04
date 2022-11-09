@@ -19,5 +19,8 @@
   "bin": {
     "roll-dice": "./bin/cli.js"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
 }
